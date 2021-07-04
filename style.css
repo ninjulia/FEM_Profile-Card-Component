@@ -17,9 +17,6 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 1.125em;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
 }
 
 img {
@@ -31,22 +28,24 @@ img {
 .card-container {
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-size: 798px 798px, 798px 798px;
-    background-position:left -50% top -25%, right -50% bottom -25%;
-
+    background-size: 49.875em 49.875em, 49.875em 49.875em;
+    background-position: left -180vw top -60vh, right -180vw bottom -60vh;
     background-color: var(--dark-cyan);
-    height: 95vh;
-    padding: var(--padding-1);
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: var(--padding-1);
+
 }
 
 .card {
     background-color: #ffffff;
     border-radius: 1em;
-    width: 350px;
-    box-shadow: .25em .75em 1em .5em rgba(101,108,134,0.25);
+    width: 18em;
+    box-shadow: .25em .75em 1em .5em rgba(101, 108, 134, 0.25);
 }
 
 .pattern {
@@ -54,7 +53,7 @@ img {
     background-image: url(images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     padding-top: 5.25em;
-    padding-bottom:1.5em;
+    padding-bottom: 1.5em;
 }
 
 .profile-image {
@@ -67,51 +66,60 @@ img {
 .card-content {
     text-align: center;
     font-size: 1.125em;
-    color:var(--grayish-blue);
+    color: var(--grayish-blue);
 }
 
 .name {
-    color:var(--desaturated-blue);
+    color: var(--desaturated-blue);
     font-weight: 700;
 }
 
-.location{
-    padding:.5em 1em 1.875em;
-    font-size:.75em;
+.location {
+    padding: .5em 1em 1.875em;
+    font-size: .75em;
 }
 
-.card-stats{
-    border-top:1px solid #e7e7e7;
-    padding:1.5em;
-    display:flex;
+.card-stats {
+    border-top: 1px solid #e7e7e7;
+    padding: 1.5em;
+    display: flex;
     justify-content: space-around;
 }
 
-.stats-number, .stats-descriptor{
-    display:block;
+.stats-number,
+.stats-descriptor {
+    display: block;
     text-align: center;
 }
 
-.stats-number{
+.stats-number {
     font-weight: 700;
-    color:var(--desaturated-blue);
-    font-size:1em;
-    padding-bottom:.75em;
+    color: var(--desaturated-blue);
+    font-size: 1em;
+    padding-bottom: .75em;
 }
 
-.stats-descriptor{
-    font-size:.5em;
+.stats-descriptor {
+    font-size: .5em;
 }
 
 .attribution {
-    color:#ffffff;
+    color: #ffffff;
     font-size: 11px;
     text-align: center;
-    padding:var(--padding-1);
-    height: 5vh;
-    background-color: var(--dark-cyan);
+    width: 100%;
+    padding: var(--padding-2);
 }
 
 .attribution a {
-    color:#ffffff;
+    color: #ffffff;
+}
+
+@media screen and (min-width:1024px) {
+    .card-container {
+        background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+        background-repeat: no-repeat;
+        background-size:49.875em 49.875em;
+        background-position:left -10vw top -30vh, right -10vw bottom -30vh;
+    }
 }
