@@ -22,12 +22,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![screenshot](screenshot.png?raw=true)
 
 ### Links
 
-- Solution URL: [https://github.com/ninjulia/FEM_profile-card-component](https://github.com/ninjulia/FEM_profile-card-component)
-- Live Site URL: [https://ninjulia.github.io/FEM_profile-card-component/](https://ninjulia.github.io/FEM_profile-card-component/)
+- Solution URL: [https://github.com/ninjulia/FEM_Profile-Card-Component/](https://github.com/ninjulia/FEM_Profile-Card-Component/)
+- Live Site URL: [https://ninjulia.github.io/FEM_Profile-Card-Component/](https://ninjulia.github.io/FEM_Profile-Card-Component/)
 
 ## My process
 
